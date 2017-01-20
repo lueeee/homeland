@@ -1,3 +1,4 @@
+ruby "2.3.3"
 if ENV['TRAVIS']
   source 'https://rubygems.org'
 else
