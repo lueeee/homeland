@@ -36,7 +36,7 @@ class User < ApplicationRecord
 
   attr_accessor :password_confirmation
 
-  ACCESSABLE_ATTRS = [:name, :email_public, :location, :company, :bio, :website, :github, :twitter,
+  ACCESSABLE_ATTRS = [:login, :email, :name, :email_public, :location, :company, :bio, :website, :github, :twitter,
                       :tagline, :avatar, :by, :current_password, :password, :password_confirmation,
                       :_rucaptcha]
 
