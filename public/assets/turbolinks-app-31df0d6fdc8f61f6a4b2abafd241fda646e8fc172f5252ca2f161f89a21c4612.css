@@ -1,0 +1,435 @@
+/* Animations */
+/* line 39, /home/deng/rails_projects/homeland/app/assets/stylesheets/vars.scss */
+.animated {
+  -webkit-animation-duration: 0.5s;
+  animation-duration: 0.5s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+}
+
+@-webkit-keyframes bounceIn {
+  0% {
+    opacity: 0;
+    -webkit-transform: scale(0.5);
+  }
+  50% {
+    opacity: 1;
+    -webkit-transform: scale(1.5);
+  }
+  70% {
+    -webkit-transform: scale(0.9);
+  }
+  100% {
+    -webkit-transform: scale(1);
+  }
+}
+@keyframes bounceIn {
+  0% {
+    opacity: 0;
+    transform: scale(0.5);
+  }
+  50% {
+    opacity: 1;
+    transform: scale(1.5);
+  }
+  70% {
+    transform: scale(0.9);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+/* line 86, /home/deng/rails_projects/homeland/app/assets/stylesheets/vars.scss */
+.bounceIn {
+  -webkit-animation-name: bounceIn;
+  animation-name: bounceIn;
+}
+
+/* line 6, /home/deng/rails_projects/homeland/app/assets/stylesheets/turbolinks-app.scss */
+.hide-ios {
+  display: none !important;
+}
+
+/* line 7, /home/deng/rails_projects/homeland/app/assets/stylesheets/turbolinks-app.scss */
+body {
+  padding-top: 0;
+  background: #e9e3e3;
+}
+
+/* line 12, /home/deng/rails_projects/homeland/app/assets/stylesheets/turbolinks-app.scss */
+.btn-primary {
+  background: #e23c28 !important;
+  border-color: #af2913 !important;
+}
+/* line 16, /home/deng/rails_projects/homeland/app/assets/stylesheets/turbolinks-app.scss */
+.btn-primary.active, .btn-primary:active {
+  background: #af2913 !important;
+  border-color: #af2913 !important;
+}
+
+/* line 23, /home/deng/rails_projects/homeland/app/assets/stylesheets/turbolinks-app.scss */
+.btn-danger {
+  background: #555 !important;
+  border-color: #333 !important;
+}
+/* line 27, /home/deng/rails_projects/homeland/app/assets/stylesheets/turbolinks-app.scss */
+.btn-danger:active {
+  background: #333 !important;
+  border-color: #111 !important;
+}
+
+/* line 33, /home/deng/rails_projects/homeland/app/assets/stylesheets/turbolinks-app.scss */
+.header, .footer,
+.index-sections, .index-locations {
+  display: none;
+}
+
+/* line 35, /home/deng/rails_projects/homeland/app/assets/stylesheets/turbolinks-app.scss */
+#node-selector .panel {
+  display: block;
+  padding: 0px;
+  box-shadow: 0 0 0;
+  border: 0px;
+}
+/* line 40, /home/deng/rails_projects/homeland/app/assets/stylesheets/turbolinks-app.scss */
+#node-selector .panel .panel-body {
+  border: 0;
+}
+/* line 41, /home/deng/rails_projects/homeland/app/assets/stylesheets/turbolinks-app.scss */
+#node-selector .panel .media-left {
+  display: none;
+}
+
+/* line 44, /home/deng/rails_projects/homeland/app/assets/stylesheets/turbolinks-app.scss */
+.container {
+  padding: 0;
+}
+
+/* line 48, /home/deng/rails_projects/homeland/app/assets/stylesheets/turbolinks-app.scss */
+.sidebar {
+  padding: 0;
+  display: none;
+}
+
+/* line 49, /home/deng/rails_projects/homeland/app/assets/stylesheets/turbolinks-app.scss */
+#main > .row {
+  margin: 0;
+}
+/* line 51, /home/deng/rails_projects/homeland/app/assets/stylesheets/turbolinks-app.scss */
+#main > .row .col-md-9,
+#main > .row .col-md-8,
+#main > .row .col-md-6,
+#main > .row .col-md-5,
+#main > .row .col-md-4,
+#main > .row .col-md-3 {
+  padding: 0;
+}
+
+/* line 59, /home/deng/rails_projects/homeland/app/assets/stylesheets/turbolinks-app.scss */
+.panel {
+  border-radius: 0;
+  margin-bottom: 0 !important;
+  box-shadow: 0 0 0;
+  border-top: 0px solid #f0f0f0;
+  border-bottom: 0px solid #ece2d7;
+}
+/* line 66, /home/deng/rails_projects/homeland/app/assets/stylesheets/turbolinks-app.scss */
+.panel:last-child {
+  border-bottom: 0;
+}
+/* line 70, /home/deng/rails_projects/homeland/app/assets/stylesheets/turbolinks-app.scss */
+.panel .panel-heading,
+.panel .panel-footer {
+  background: #fffbf8;
+  border-color: #ece2d7;
+  border-radius: 0 !important;
+}
+
+/* line 78, /home/deng/rails_projects/homeland/app/assets/stylesheets/turbolinks-app.scss */
+.container > .alert {
+  margin-right: 0;
+}
+
+/* line 81, /home/deng/rails_projects/homeland/app/assets/stylesheets/turbolinks-app.scss */
+.alert {
+  border-radius: 0;
+  border: 0;
+  box-shadow: 0;
+  padding: 10px;
+  font-size: 14px;
+  border-top: 0;
+  margin-bottom: 0px;
+}
+/* line 90, /home/deng/rails_projects/homeland/app/assets/stylesheets/turbolinks-app.scss */
+.alert .close {
+  opacity: .4;
+  margin-top: 2px;
+}
+
+/* line 95, /home/deng/rails_projects/homeland/app/assets/stylesheets/turbolinks-app.scss */
+.alert-success {
+  background: #c3ffb8;
+  border-color: #b6f3b8;
+  color: #00a21c;
+}
+
+/* line 100, /home/deng/rails_projects/homeland/app/assets/stylesheets/turbolinks-app.scss */
+.alert-warning {
+  background: #fff8b8;
+  color: #CD8546;
+  border-color: #faebcc;
+}
+
+/* line 106, /home/deng/rails_projects/homeland/app/assets/stylesheets/turbolinks-app.scss */
+.form-control {
+  -webkit-appearance: none;
+}
+/* line 109, /home/deng/rails_projects/homeland/app/assets/stylesheets/turbolinks-app.scss */
+.form-control:focus {
+  border-color: #ccc;
+}
+
+/* line 114, /home/deng/rails_projects/homeland/app/assets/stylesheets/turbolinks-app.scss */
+.pagination {
+  display: none;
+}
+
+/* line 117, /home/deng/rails_projects/homeland/app/assets/stylesheets/turbolinks-app.scss */
+.markdown pre {
+  margin-left: -15px;
+  margin-right: -15px;
+}
+/* line 121, /home/deng/rails_projects/homeland/app/assets/stylesheets/turbolinks-app.scss */
+.markdown pre code {
+  margin: 8px;
+}
+
+/* line 128, /home/deng/rails_projects/homeland/app/assets/stylesheets/turbolinks-app.scss */
+.topics .topic-list-heading {
+  display: none;
+}
+
+/* line 134, /home/deng/rails_projects/homeland/app/assets/stylesheets/turbolinks-app.scss */
+.editor-toolbar .dropdown-menu {
+  left: auto;
+  right: 0;
+}
+
+/* line 140, /home/deng/rails_projects/homeland/app/assets/stylesheets/turbolinks-app.scss */
+.topic-editor {
+  height: 140px;
+}
+
+/* line 144, /home/deng/rails_projects/homeland/app/assets/stylesheets/turbolinks-app.scss */
+.no-result {
+  display: none;
+}
+
+/* line 148, /home/deng/rails_projects/homeland/app/assets/stylesheets/turbolinks-app.scss */
+.new_reply .submit-buttons #reply-button {
+  display: block;
+  width: 100%;
+}
+/* line 149, /home/deng/rails_projects/homeland/app/assets/stylesheets/turbolinks-app.scss */
+.new_reply .submit-buttons .help-inline,
+.new_reply .submit-buttons .pull-right {
+  display: none;
+}
+
+/* line 155, /home/deng/rails_projects/homeland/app/assets/stylesheets/turbolinks-app.scss */
+.edit-reply .panel-heading {
+  display: none;
+}
+/* line 156, /home/deng/rails_projects/homeland/app/assets/stylesheets/turbolinks-app.scss */
+.edit-reply .col-xs-2 {
+  display: block;
+  width: 50%;
+}
+
+/* line 160, /home/deng/rails_projects/homeland/app/assets/stylesheets/turbolinks-app.scss */
+.topics .topic {
+  min-height: 60px;
+}
+/* line 162, /home/deng/rails_projects/homeland/app/assets/stylesheets/turbolinks-app.scss */
+.topics .topic:active {
+  background: #f5f5f5;
+}
+/* line 166, /home/deng/rails_projects/homeland/app/assets/stylesheets/turbolinks-app.scss */
+.topics .topic .avatar {
+  padding-top: 3px;
+}
+/* line 170, /home/deng/rails_projects/homeland/app/assets/stylesheets/turbolinks-app.scss */
+.topics .topic .title {
+  margin-bottom: 0px;
+}
+/* line 172, /home/deng/rails_projects/homeland/app/assets/stylesheets/turbolinks-app.scss */
+.topics .topic .title a {
+  font-size: 14px;
+  line-height: 22px !important;
+}
+/* line 176, /home/deng/rails_projects/homeland/app/assets/stylesheets/turbolinks-app.scss */
+.topics .topic .title a:hover,
+.topics .topic .title a:active {
+  text-decoration: none;
+}
+/* line 183, /home/deng/rails_projects/homeland/app/assets/stylesheets/turbolinks-app.scss */
+.topics .topic .info a.node {
+  color: #909090;
+}
+/* line 190, /home/deng/rails_projects/homeland/app/assets/stylesheets/turbolinks-app.scss */
+.topics .topic.topic-visited .title a:link,
+.topics .topic.topic-visited .title a:visited {
+  color: #666;
+}
+/* line 193, /home/deng/rails_projects/homeland/app/assets/stylesheets/turbolinks-app.scss */
+.topics .topic.topic-visited .info {
+  color: #bbb;
+}
+/* line 195, /home/deng/rails_projects/homeland/app/assets/stylesheets/turbolinks-app.scss */
+.topics .topic.topic-visited .info a {
+  color: #bbb;
+}
+/* line 198, /home/deng/rails_projects/homeland/app/assets/stylesheets/turbolinks-app.scss */
+.topics .topic.topic-visited .count a:link,
+.topics .topic.topic-visited .count a:visited {
+  color: #ddd;
+}
+/* line 205, /home/deng/rails_projects/homeland/app/assets/stylesheets/turbolinks-app.scss */
+.topics .topic .count {
+  padding-top: 0px;
+  padding-left: 0;
+  width: auto;
+  text-align: right;
+}
+/* line 210, /home/deng/rails_projects/homeland/app/assets/stylesheets/turbolinks-app.scss */
+.topics .topic .count a:link,
+.topics .topic .count a:hover,
+.topics .topic .count a:visited {
+  line-height: 11px;
+  min-width: 28px;
+  text-align: right;
+  border-radius: 80px;
+  padding: 0;
+  display: inline-block;
+  text-decoration: none;
+}
+/* line 222, /home/deng/rails_projects/homeland/app/assets/stylesheets/turbolinks-app.scss */
+.topics .topic .count a:link {
+  background: transparent;
+  color: #666;
+}
+/* line 223, /home/deng/rails_projects/homeland/app/assets/stylesheets/turbolinks-app.scss */
+.topics .topic .count a:hover {
+  background: transparent;
+}
+/* line 224, /home/deng/rails_projects/homeland/app/assets/stylesheets/turbolinks-app.scss */
+.topics .topic .count a.state-true,
+.topics .topic .count a:visited {
+  background: transparent;
+  color: #ddd;
+}
+
+/* line 231, /home/deng/rails_projects/homeland/app/assets/stylesheets/turbolinks-app.scss */
+.topic-detail .label-awesome {
+  padding: 10px 15px;
+  margin-top: -1px;
+  background: #fff2c4;
+  border: 0;
+  color: #e23c28;
+}
+/* line 237, /home/deng/rails_projects/homeland/app/assets/stylesheets/turbolinks-app.scss */
+.topic-detail .label-awesome .fa.awesome {
+  color: #e23c28;
+}
+/* line 240, /home/deng/rails_projects/homeland/app/assets/stylesheets/turbolinks-app.scss */
+.topic-detail .label-awesome a {
+  color: #cccaa2;
+}
+/* line 244, /home/deng/rails_projects/homeland/app/assets/stylesheets/turbolinks-app.scss */
+.topic-detail .panel-heading h1 {
+  font-size: 18px;
+}
+/* line 249, /home/deng/rails_projects/homeland/app/assets/stylesheets/turbolinks-app.scss */
+.topic-detail .info {
+  color: #999;
+}
+/* line 252, /home/deng/rails_projects/homeland/app/assets/stylesheets/turbolinks-app.scss */
+.topic-detail .info .user-name {
+  color: #666;
+}
+/* line 255, /home/deng/rails_projects/homeland/app/assets/stylesheets/turbolinks-app.scss */
+.topic-detail .info .node {
+  color: #e23c28;
+}
+/* line 259, /home/deng/rails_projects/homeland/app/assets/stylesheets/turbolinks-app.scss */
+.topic-detail .markdown .zoom-image {
+  overflow: hidden;
+  display: block;
+  margin: 8px -15px;
+}
+/* line 263, /home/deng/rails_projects/homeland/app/assets/stylesheets/turbolinks-app.scss */
+.topic-detail .markdown .zoom-image img {
+  width: 100%;
+}
+/* line 266, /home/deng/rails_projects/homeland/app/assets/stylesheets/turbolinks-app.scss */
+.topic-detail .markdown pre {
+  background: #fffefc !important;
+  border-color: #f9f4f0 !important;
+}
+/* line 269, /home/deng/rails_projects/homeland/app/assets/stylesheets/turbolinks-app.scss */
+.topic-detail .markdown pre code {
+  background: #fffefc !important;
+}
+
+/* line 278, /home/deng/rails_projects/homeland/app/assets/stylesheets/turbolinks-app.scss */
+.notifications .notification-group .group-title {
+  margin: 0 -15px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+/* line 287, /home/deng/rails_projects/homeland/app/assets/stylesheets/turbolinks-app.scss */
+.opts a:link,
+.opts a:visited {
+  color: #444 !important;
+}
+/* line 292, /home/deng/rails_projects/homeland/app/assets/stylesheets/turbolinks-app.scss */
+.opts a.active .fa {
+  color: #e23c28;
+}
+
+/* line 298, /home/deng/rails_projects/homeland/app/assets/stylesheets/turbolinks-app.scss */
+.page-topics .panel.topic-detail, .page-topics .panel#replies, .page-topics .panel#reply {
+  border-bottom-width: 1px;
+}
+
+/* line 307, /home/deng/rails_projects/homeland/app/assets/stylesheets/turbolinks-app.scss */
+.page-pages .wiki-sidebar {
+  display: block;
+}
+
+/* line 311, /home/deng/rails_projects/homeland/app/assets/stylesheets/turbolinks-app.scss */
+.page-users .sidebar {
+  display: block;
+}
+/* line 314, /home/deng/rails_projects/homeland/app/assets/stylesheets/turbolinks-app.scss */
+.page-users .sidebar .profile .opts {
+  display: none;
+}
+/* line 318, /home/deng/rails_projects/homeland/app/assets/stylesheets/turbolinks-app.scss */
+.page-users #user_github_repos {
+  display: none;
+}
+/* line 319, /home/deng/rails_projects/homeland/app/assets/stylesheets/turbolinks-app.scss */
+.page-users .nav-tabs {
+  margin-top: 15px;
+}
+/* line 321, /home/deng/rails_projects/homeland/app/assets/stylesheets/turbolinks-app.scss */
+.page-users .nav-tabs li > a {
+  border: 0;
+  padding: 8px 8px;
+}
+/* line 328, /home/deng/rails_projects/homeland/app/assets/stylesheets/turbolinks-app.scss */
+.page-users .node-topics {
+  border-bottom: 1px solid #ddd;
+}
